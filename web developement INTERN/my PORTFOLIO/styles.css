@@ -1,0 +1,208 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;700&family=Montserrat:wght@400;600&family=Oswald:wght@400;600&display=swap');
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    background-image: linear-gradient(120deg, #a6c0fe, #f68084);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.7); /* Black background with opacity */
+    color: #fff; /* White text */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Profile Image */
+.profile-img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Intro Section */
+.intro {
+    background: rgba(0, 0, 0, 0.7); /* Black background */
+    color: #fff; /* White text */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.intro h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.intro p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.8;
+}
+
+/* Skills Section */
+.skills {
+    margin: 2rem 0;
+    padding: 2rem;
+    background: #000; /* Black background */
+    color: #fff; /* White text */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.skills h2 {
+    font-family: 'Oswald', sans-serif; /* Updated font for heading */
+    font-size: 2rem;
+    color: #ffa500; /* Orange color */
+    margin-bottom: 1.5rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(120deg, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+ /* Contact Section */
+ #contact {
+    background: rgba(0, 0, 0, 0.1); /* Light black background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-family: 'Oswald', sans-serif; /* Different font for heading */
+    font-size: 2rem;
+    color: #4b0082;
+    margin-bottom: 1.5rem;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #333;
+}
+
+#contact input, #contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact button {
+    padding: 10px 20px;
+    background: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    
+}
+
+#contact button:hover {
+    background: #ff6347;
+}
+
+/* Connect Section */
+#connect {
+    background-color: #000; /* Black background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#connect h2 {
+    font-family: 'Oswald', sans-serif; /* Font for heading */
+    font-size: 2rem;
+    color: #ff4500; /* Tomato color for the heading */
+    margin-bottom: 1.5rem;
+}
+
+#connect p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #fff; /* White text for the paragraph */
+}
+
+#connect a {
+    color: #fff; /* White color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#connect a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+
+
+
+

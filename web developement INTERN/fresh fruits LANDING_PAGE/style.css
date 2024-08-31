@@ -1,0 +1,103 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #000; /* Set background color to black */
+}
+
+/* Banner Image */
+.banner img {
+    width: 50%;
+    height: 100%;
+    border-bottom: 5px solid #ff6f61;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #ff6f61, #ff9472);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Header Content */
+.header-content h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.header-content h1 .highlight {
+    color: #ffd700;
+}
+
+.header-content p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ffd700;
+    color: #333;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color:#333;
+    color: white;
+}
+
+/* About Section Styles */
+#about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #000; /* Set background color to black */
+}
+
+#about h2, #gallery h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff6f61;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #ccc; /* Change text color to a lighter shade for readability */
+}
+
+/* Gallery Styles */
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #000; /* Set background color to black */
+    color: aliceblue;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gallery-images img {
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}

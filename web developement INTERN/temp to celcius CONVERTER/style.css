@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(182, 228, 238);
+}
+
+.temp{
+    text-align: center;
+    margin-top:150px;
+}
+.temp h1{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+label{
+    font-size: 2rem;
+}
+form input{
+   height: 50px;
+   margin: 40px;
+   border: solid black;
+   padding: 3px;
+   border-radius: 7px;
+}
+#temp_diff{
+    height: 50px;
+    margin: 30px;
+    border:solid black;
+    padding: 3px;
+    width: 7rem;
+    border-radius: 7px;
+ }
+
+ .submit{
+    margin: 40px;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    cursor: pointer;
+
+ }
+ #result{
+    font-size: 4rem;
+ }
+
